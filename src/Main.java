@@ -61,6 +61,7 @@ public class Main {
     System.out.println(hoje);
     LocalTime horaHoje = LocalTime.now();
     System.out.println(horaHoje);
+    // transformando a data recebida no formato BR
     String formatDate = "dd/MM/yyyy";
     DateTimeFormatter formatedData = DateTimeFormatter.ofPattern(formatDate);
     if (data.equals(hoje)) {
